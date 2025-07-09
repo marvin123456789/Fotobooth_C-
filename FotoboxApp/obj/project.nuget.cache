@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "dgSpecHash": "MZKw1JFsFpU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gross\\Desktop\\repos\\Fotobooth_C-\\FotoboxApp\\FotoboxApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gross\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
+    "C:\\Users\\gross\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
+    "C:\\Users\\gross\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Das Paket \"AForge 2.2.5\" wurde nicht mit dem Projektzielframework \"net9.0-windows7.0\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
+      "projectPath": "C:\\Users\\gross\\Desktop\\repos\\Fotobooth_C-\\FotoboxApp\\FotoboxApp.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\gross\\Desktop\\repos\\Fotobooth_C-\\FotoboxApp\\FotoboxApp.csproj",
+      "libraryId": "AForge",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Das Paket \"AForge.Video 2.2.5\" wurde nicht mit dem Projektzielframework \"net9.0-windows7.0\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
+      "projectPath": "C:\\Users\\gross\\Desktop\\repos\\Fotobooth_C-\\FotoboxApp\\FotoboxApp.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\gross\\Desktop\\repos\\Fotobooth_C-\\FotoboxApp\\FotoboxApp.csproj",
+      "libraryId": "AForge.Video",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Das Paket \"AForge.Video.DirectShow 2.2.5\" wurde nicht mit dem Projektzielframework \"net9.0-windows7.0\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
+      "projectPath": "C:\\Users\\gross\\Desktop\\repos\\Fotobooth_C-\\FotoboxApp\\FotoboxApp.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\gross\\Desktop\\repos\\Fotobooth_C-\\FotoboxApp\\FotoboxApp.csproj",
+      "libraryId": "AForge.Video.DirectShow",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    }
+  ]
+}
