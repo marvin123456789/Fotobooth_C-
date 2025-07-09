@@ -28,6 +28,7 @@ namespace FotoboxApp
         public FotoboxForm()
         {
             InitializeLayout();
+            InitializeCamera();
             InitializeCountdown();
         }
 
@@ -51,10 +52,13 @@ namespace FotoboxApp
                 Debug.WriteLine("📸 Frame received");
                 Bitmap frame = (Bitmap)eventArgs.Frame.Clone();
 
+                latestFrame?.Dispose();
+                latestFrame = (Bitmap)frame.Clone();
+
                 pictureBoxLive.Invoke(new MethodInvoker(() =>
                 {
                     pictureBoxLive.Image?.Dispose();
-                    pictureBoxLive.Image = (Bitmap)frame.Clone();
+                    pictureBoxLive.Image = frame;
                 }));
             }
             catch (Exception ex)
@@ -82,7 +86,6 @@ namespace FotoboxApp
 
         private void btnFotoMachen_Click(object sender, EventArgs e)
         {
-            InitializeCamera();
             overlayForm.UpdateCountdown(countdown);
             overlayForm.ShowCountdown();
             countdownTimer.Start();

@@ -17,3 +17,4 @@ C:\Users\gross\Desktop\repos\Fotobooth_C-\FotoboxApp\obj\Debug\net9.0-windows\re
 C:\Users\gross\Desktop\repos\Fotobooth_C-\FotoboxApp\obj\Debug\net9.0-windows\FotoboxApp.pdb
 C:\Users\gross\Desktop\repos\Fotobooth_C-\FotoboxApp\obj\Debug\net9.0-windows\FotoboxApp.genruntimeconfig.cache
 C:\Users\gross\Desktop\repos\Fotobooth_C-\FotoboxApp\obj\Debug\net9.0-windows\ref\FotoboxApp.dll
+C:\Users\gross\Desktop\repos\Fotobooth_C-\FotoboxApp\obj\Debug\net9.0-windows\FotoboxApp.sourcelink.json
